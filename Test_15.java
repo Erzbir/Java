@@ -8,6 +8,7 @@ public class Test_15 {
             }
         }
     }
+
     public static int reversNum(int num) {
         String str = String.valueOf(num);
         int n = num;

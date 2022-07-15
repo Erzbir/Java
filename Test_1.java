@@ -1,5 +1,5 @@
 public class Test_1 {
-    public static void main (String[] argv) {
+    public static void main(String[] argv) {
         double a;
         double b;
         double c;

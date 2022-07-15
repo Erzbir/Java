@@ -8,8 +8,9 @@ public class Test_12 {
         char operate = Main.input.next().charAt(0);
         System.out.println("结果为:" + calculator(num_1, num_2, operate));
     }
+
     private static double calculator(double num_1, double num_2, char operate) {
-        switch(operate){
+        switch (operate) {
             case '+':
                 return num_1 + num_2;
             case '-':

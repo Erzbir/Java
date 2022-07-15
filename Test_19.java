@@ -1,5 +1,5 @@
 public class Test_19 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         long num = 123456789L;
         for (long i = 1; i < 1000; i++) {
             if (isContain(num, i)) {
@@ -7,6 +7,7 @@ public class Test_19 {
             }
         }
     }
+
     public static boolean isContain(long num, long n) {
         long temp = num * n;
         String temp_str = String.valueOf(temp);

@@ -7,10 +7,10 @@ public class Test_24 {
         long result = sum(n, num);
         System.out.println(result);
     }
+
     private static long sum(int a, int b) {
         if (b > 1) {
             return a + sum(a, b - 1) * 10;
-        }
-        else return a;
+        } else return a;
     }
 }

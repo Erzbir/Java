@@ -32,8 +32,7 @@ class PrintPatten {
                     System.out.print(" ");
                 }
             }
-        }
-        else {
+        } else {
             for (int m = 0; m < 2 * i - 1; m++) {
                 System.out.print("*");
 

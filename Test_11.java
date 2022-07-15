@@ -1,10 +1,11 @@
 public class Test_11 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         System.out.print("输入层数:");
         int floor = Main.input.nextInt();
         printPatten(floor);
     }
-    private static void printPatten (int floor) {
+
+    private static void printPatten(int floor) {
         int floor_2 = floor / 2;
         for (int i = 1; i <= floor_2; i++) {
             PrintPatten.printSpace(floor_2 + 1, i);
@@ -17,7 +18,7 @@ public class Test_11 {
             }
             System.out.println();
         }
-        for (int i = floor_2 ; i >= 1; i--) {
+        for (int i = floor_2; i >= 1; i--) {
             PrintPatten.printSpace(floor_2 + 1, i);
             PrintPatten.printCrossAsterisk(i);
             System.out.println();

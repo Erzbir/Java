@@ -4,8 +4,7 @@ public class Test_14 {
             if (i % 2 == 1 && i % 5 == 3 && i % 9 == 1) {
                 System.out.println(i);
                 break;
-            }
-            else if (j % 2 == 1 && j % 5 == 3 && j % 9 == 1) {
+            } else if (j % 2 == 1 && j % 5 == 3 && j % 9 == 1) {
                 System.out.println(j);
                 break;
             }

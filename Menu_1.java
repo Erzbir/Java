@@ -1,5 +1,5 @@
-public class Menu_1{
-    public static void main(String[] args){
+public class Menu_1 {
+    public static void main(String[] args) {
         System.out.println("\t英雄联盟商城登录界面");
         System.out.println("~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
         System.out.println("\t1.用户登录");

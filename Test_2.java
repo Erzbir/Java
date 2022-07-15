@@ -1,5 +1,5 @@
 public class Test_2 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         int num;
         System.out.print("输入一个数:");
         num = Main.input.nextInt();
@@ -11,11 +11,10 @@ public class Test_2 {
                     System.out.print(i + " ");
                 }
             }
-        }
-        else {
+        } else {
             System.out.println("奇数");
             System.out.print("是5的倍数的数:");
-            for (int i = 1; i <= num; i++){
+            for (int i = 1; i <= num; i++) {
                 if (i % 5 == 0) {
                     System.out.print(i + " ");
                 }
