@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Test_6 {
     public static void main(String[] args) {
         int floor = Main.input.nextInt();
