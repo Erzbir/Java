@@ -3,7 +3,7 @@ public class Test_33 {
         System.out.print("输入层数:");
         int floor = Main.input.nextInt();
         int floor_1 = floor >> 1;
-        for(int i = 1; i <= floor_1; i++) {
+        for (int i = 1; i <= floor_1; i++) {
             PrintPatten.printSpace(floor_1, i - 1);
             PrintPatten.printDiamond(i);
             System.out.println();
@@ -18,7 +18,7 @@ public class Test_33 {
             }
             System.out.println();
         }
-        for(int i = floor_1; i >= 1; i--) {
+        for (int i = floor_1; i >= 1; i--) {
             PrintPatten.printSpace(floor_1, i - 1);
             PrintPatten.printDiamond(i);
             System.out.println();

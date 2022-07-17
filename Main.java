@@ -21,13 +21,11 @@ class PrintPatten {
         for (int j = 0; j < 2 * i - 1; j++) {
             if (j == 0 || j == 2 * i - 2 || j == i && i < 3) {
                 System.out.print("*");
-            }
-            else {
+            } else {
                 System.out.print(" ");
             }
         }
     }
-
 
 
     public static void printCrossAsterisk(int i) {
