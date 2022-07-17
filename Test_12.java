@@ -4,8 +4,9 @@ public class Test_12 {
         double num_1 = Main.input.nextDouble();
         System.out.print("输入第二个数的值:");
         double num_2 = Main.input.nextDouble();
+        Main.input.nextLine();
         System.out.print("输入运算符:");
-        char operate = Main.input.next().charAt(0);
+        char operate = Main.input.nextLine().charAt(0);
         System.out.println("结果为:" + calculator(num_1, num_2, operate));
     }
 

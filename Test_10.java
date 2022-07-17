@@ -6,7 +6,7 @@ public class Test_10 {
     }
 
     private static void printPattern(int floor) {
-        int floor_2 = floor / 2;
+        int floor_2 = floor >> 1;
         for (int i = 1; i <= floor_2; i++) {
             PrintPatten.printSpace(floor_2 + 1, i);
             PrintPatten.printAsterisk(i);
