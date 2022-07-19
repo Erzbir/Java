@@ -1,5 +1,4 @@
 public class Test_53 {
-    static int count = 0;
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 3, 4, 4, 5, 6, 5, 7, 46, 7, 545, 7, 45, 9, 1};
@@ -15,14 +14,14 @@ public class Test_53 {
 
     // 使用快慢指针原地删除
     private static int duplicateRemoval(int[] arr) {
-        int length = 0;
+        int index = 0;
         quickSort(arr, 0, arr.length - 1);
         for (int i = 0; i < arr.length; i++) {
             if (i == 0 || arr[i] != arr[i - 1]) {
-                arr[length++] = arr[i];
+                arr[index++] = arr[i];
             }
         }
-        return length;
+        return index;
     }
 
     private static void quickSort(int[] arr, int left, int right) {

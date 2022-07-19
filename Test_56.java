@@ -22,6 +22,6 @@ public class Test_56 {
                 arr[i][j] = arr[i][j - 1] + arr[i - 1][j];
             }
         }
-        return arr[arr.length - 1][arr[0].length - 1] ;
+        return arr[arr.length - 1][arr[0].length - 1];
     }
 }

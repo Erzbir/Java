@@ -1,5 +1,3 @@
-import javax.swing.*;
-import java.sql.Time;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -21,13 +19,14 @@ public class Test_54 {
                 }
             }
         }
-        for (int[] ins: arr) {
+        for (int[] ins : arr) {
             for (int in : ins) {
                 System.out.print(in + "  ");
             }
             System.out.println();
         }
     }
+
     private static boolean search(int[][] arr, int i, int x) {
         for (int j = 0; j < arr[i].length - 1; j++) {
             if (arr[i][j] == x) {

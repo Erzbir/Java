@@ -2,7 +2,7 @@ public class Test_55 {
     public static void main(String[] args) {
         int[] nums = {4, 8, 9, 1, 3, 2, 5, 4, 7, 8, 10};
         insertSort(nums);
-        for (int i: nums) {
+        for (int i : nums) {
             System.out.println(i);
         }
 
@@ -19,7 +19,7 @@ public class Test_55 {
     private static void insertSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             for (int j = i; j > 0; j--) {
-                if (! isOddNumber(arr[j]) && isOddNumber(arr[j - 1])) {
+                if (!isOddNumber(arr[j]) && isOddNumber(arr[j - 1])) {
                     swap(arr, j, j - 1);
                 }
             }
